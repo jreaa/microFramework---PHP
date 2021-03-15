@@ -1,0 +1,19 @@
+{
+    "name": "joseera/framworks-php",
+    "description": "This is about a course to know the structure to PHP in frameworks",
+    "authors": [
+        {
+            "name": "Jose Era",
+            "email": "jorfgfe@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
